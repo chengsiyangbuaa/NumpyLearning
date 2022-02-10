@@ -60,3 +60,22 @@ a = b.reshape((4,-1))# a,b在内存中共享一块内存
 ## 思考题：数组可不可以存放不同类型的元素？为神魔？
 
 ## 思考题：Numpy的数组ndarray，是否存储在连续的内存块中？
+
+## 广播
+
+### (3,2,2)+(1,2)
+
+![image-20220210115424602](http://tallestdaisy.oss-cn-beijing.aliyuncs.com/img/image-20220210115424602.png)
+
+![image-20220210115704689](http://tallestdaisy.oss-cn-beijing.aliyuncs.com/img/image-20220210115704689.png)
+
+![image-20220210120102986](http://tallestdaisy.oss-cn-beijing.aliyuncs.com/img/image-20220210120102986.png)
+
+![image-20220210120403426](http://tallestdaisy.oss-cn-beijing.aliyuncs.com/img/image-20220210120403426.png)
+
+![image-20220210120612993](http://tallestdaisy.oss-cn-beijing.aliyuncs.com/img/image-20220210120612993.png)
+
+### na[2]\[1]\[0] + nb[2]\[1]\[0]
+
+![image-20220210142259893](http://tallestdaisy.oss-cn-beijing.aliyuncs.com/img/image-20220210142259893.png)
+
